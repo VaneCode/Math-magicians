@@ -5,8 +5,8 @@ class CalcUI extends React.Component {
   render() {
     return (
       <div className="divCalculator">
-        <div className="divResult">0</div>
         <div className="divButtons">
+          <div className="divResult">0</div>
           <button className="btnNumber" type="button">AC</button>
           <button className="btnNumber" type="button">+/-</button>
           <button className="btnNumber" type="button">%</button>

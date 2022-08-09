@@ -1,9 +1,15 @@
-import './App.css';
+/* eslint-disable react/prefer-stateless-function */
+import React from 'react';
+import CalcUI from './components/Calculator';
 
-function App() {
-  return (
-    <div>Hello Vane!</div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <div className="divContainer">
+        <CalcUI />
+      </div>
+    );
+  }
 }
 
 export default App;

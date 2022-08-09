@@ -6,11 +6,27 @@
   --third-color: #dcdcdc;
 }
 
+.divContainer {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
 .divCalculator {
   display: flex;
   flex-direction: column;
   justify-items: center;
   align-items: center;
+}
+
+.divButtons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.divButtons :nth-child(18) {
+  grid-column: span 2;
 }
 
 .divResult {
@@ -21,11 +37,8 @@
   display: flex;
   justify-content: center;
   align-content: center;
-}
-
-.divButtons {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-column: 4;
+  grid-column: span 4;
 }
 
 button {
