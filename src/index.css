@@ -1,1 +1,42 @@
+/* CSS variables */
+:root {
+  --white-color: rgb(255, 255, 255);
+  --main-color: #f5913e;
+  --second-color: #8d8f9a;
+  --third-color: #dcdcdc;
+}
 
+.divCalculator {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.divResult {
+  background-color: var(--second-color);
+  color: var(--white-color);
+  font-weight: bold;
+  text-align: right;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.divButtons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+  text-align: center;
+}
+
+.btnNumber {
+  background-color: var(--third-color);
+}
+
+.btnOperation {
+  background-color: var(--main-color);
+  color: var(--white-color);
+}
