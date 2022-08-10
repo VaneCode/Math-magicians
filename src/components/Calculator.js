@@ -1,5 +1,28 @@
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
+import Button from './Button';
+
+const buttons = [
+  'AC',
+  '+/-',
+  '%',
+  '÷',
+  '7',
+  '8',
+  '9',
+  'x',
+  '4',
+  '5',
+  '6',
+  '-',
+  '1',
+  '2',
+  '3',
+  '+',
+  '0',
+  '.',
+  '=',
+];
 
 class CalcUI extends React.Component {
   render() {
@@ -7,29 +30,9 @@ class CalcUI extends React.Component {
       <div className="divCalculator">
         <div className="divResult">0</div>
         <div className="divButtons">
-          <button className="btnNumber" type="button">AC</button>
-          <button className="btnNumber" type="button">+/-</button>
-          <button className="btnNumber" type="button">%</button>
-          <button className="btnOperation" type="button">+</button>
-
-          <button className="btnNumber" type="button">7</button>
-          <button className="btnNumber" type="button">8</button>
-          <button className="btnNumber" type="button">9</button>
-          <button className="btnOperation" type="button">x</button>
-
-          <button className="btnNumber" type="button">4</button>
-          <button className="btnNumber" type="button">5</button>
-          <button className="btnNumber" type="button">6</button>
-          <button className="btnOperation" type="button">-</button>
-
-          <button className="btnNumber" type="button">1</button>
-          <button className="btnNumber" type="button">2</button>
-          <button className="btnNumber" type="button">3</button>
-          <button className="btnOperation" type="button">+</button>
-
-          <button className="btnNumber" type="button">0</button>
-          <button className="btnNumber" type="button">.</button>
-          <button className="btnOperation" type="button">=</button>
+          {buttons.map((btn) => (
+            <Button key={btn.id} value={btn} />
+          ))}
         </div>
       </div>
     );
