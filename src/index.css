@@ -35,17 +35,6 @@ html {
   width: 30%;
 }
 
-.divButtons {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  width: 100%;
-  height: 50%;
-}
-
-.divButtons :nth-child(18) {
-  grid-column: span 2;
-}
-
 .divResult {
   background-color: var(--second-color);
   color: var(--white-color);
@@ -55,19 +44,28 @@ html {
   justify-content: flex-end;
   align-items: center;
   padding: 0.5rem;
-  grid-column: span 4;
+  height: 10%;
+}
+
+.divButtons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  height: 50%;
 }
 
 button {
   text-align: center;
   border: 0.1rem solid var(--four-color);
-}
-
-.btnNumber {
   background-color: var(--third-color);
 }
 
-.btnOperation {
+.divButtons :nth-child(17) {
+  grid-column: span 2;
+}
+
+.divButtons :nth-child(4n),
+.divButtons :nth-child(19) {
   background-color: var(--main-color);
   color: var(--white-color);
 }
