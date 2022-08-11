@@ -1,6 +1,6 @@
 /* eslint-disable react/prefer-stateless-function */
 /* eslint-disable react/destructuring-assignment */
-import React from 'react';
+import React, { useState } from 'react';
 import Button from './Button';
 import calculate from '../logic/calculate';
 
@@ -26,38 +26,33 @@ const buttons = [
   '=',
 ];
 
-class CalcUI extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      total: null,
-      next: null,
-      operation: null,
-    };
-  }
+const CalcUI = () => {
+  const [state, setState] = useState({
+    total: null,
+    next: null,
+    operation: null,
+  });
 
-  handleClick = (buttonName) => {
-    const newState = calculate(this.state, buttonName);
-    this.setState((previousState) => ({
+  const handleClick = (buttonName) => {
+    const newState = calculate(state, buttonName);
+    setState((previousState) => ({
       ...previousState,
       ...newState,
     }));
   };
 
-  render() {
-    return (
-      <div className="divCalculator">
-        <div className="divResult">
-          {this.state.next || this.state.total || 0}
-        </div>
-        <div className="divButtons">
-          {buttons.map((btn) => (
-            <Button clickHandler={this.handleClick} key={btn.id} value={btn} />
-          ))}
-        </div>
+  return (
+    <div className="divCalculator">
+      <div className="divResult">
+        {state.next || state.total || 0}
       </div>
-    );
-  }
-}
+      <div className="divButtons">
+        {buttons.map((btn) => (
+          <Button clickHandler={handleClick} key={btn.id} value={btn} />
+        ))}
+      </div>
+    </div>
+  );
+};
 
 export default CalcUI;
