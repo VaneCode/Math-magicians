@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import Button from './Button';
 import calculate from '../logic/calculate';
+import '../styles/calculator.css';
 
 const buttons = [
   'AC',
