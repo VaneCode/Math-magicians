@@ -6,19 +6,15 @@ import CalculatorPage from './pages/CalculatorPage';
 import Quote from './pages/Quote';
 import Header from './components/Header';
 
-class App extends React.Component {
-  render() {
-    return (
-      <>
-        <Header />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/calculator" element={<CalculatorPage />} />
-          <Route path="/quote" element={<Quote />} />
-        </Routes>
-      </>
-    );
-  }
-}
+const App = () => (
+  <>
+    <Header />
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/calculator" element={<CalculatorPage />} />
+      <Route path="/quote" element={<Quote />} />
+    </Routes>
+  </>
+);
 
 export default App;

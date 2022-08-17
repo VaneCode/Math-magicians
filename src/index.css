@@ -1,16 +1,30 @@
+/* import */
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Josefin+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&family=Lobster&family=Press+Start+2P&family=Rokkitt:wght@100;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Barlow:ital,wght@0,600;0,700;0,800;0,900;1,600;1,700;1,800;1,900&family=Josefin+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&family=Lobster&family=Press+Start+2P&family=Rokkitt:wght@100;300;400;500;600;700;800;900&display=swap');
+
+
 /* CSS variables */
 :root {
-  --white-color: rgb(255, 255, 255);
-  --main-color: #f5913e;
-  --second-color: #848693;
-  --third-color: #dcdcdc;
-  --four-color: #8d8f9a;
+  --main-color: #343090;
+  --second-color: #5f59f7;
+  --third-color: #6592fd;
+  --four-color: #44c2fd4d;
+  --five-color: #8c61ff;
+  --white-color: #fff;
+  --black-color: #000;
+  --light-grey: #c2c2ff;
+  --font-title: 'Josefin Sans', sans-serif;
+  --font-text: 'Barlow', sans-serif;
 }
 
-html {
+body {
   box-sizing: border-box;
   font-size: 100%;
+  font-family: var(--font-text);
   scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 }
 
 *,
@@ -19,53 +33,15 @@ html {
   box-sizing: inherit;
 }
 
-.divContainer {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  width: 100vw;
-  height: 100vh;
+.titlePage {
+  margin-top: 0;
+  font-family: var(--font-title);
+  font-size: 2.5rem;
+  color: var(--second-color);
 }
 
-.divCalculator {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  width: 30%;
-}
-
-.divResult {
-  background-color: var(--second-color);
-  color: var(--white-color);
-  font-weight: 500;
-  font-size: 1.4rem;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 0.5rem;
-  height: 10%;
-}
-
-.divButtons {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  width: 100%;
-  height: 50%;
-}
-
-button {
-  text-align: center;
-  border: 0.1rem solid var(--four-color);
-  background-color: var(--third-color);
-}
-
-.divButtons :nth-child(17) {
-  grid-column: span 2;
-}
-
-.divButtons :nth-child(4n),
-.divButtons :nth-child(19) {
-  background-color: var(--main-color);
-  color: var(--white-color);
+p {
+  font-family: var(--font-text);
+  font-size: 1.2rem;
+  text-align: justify;
 }

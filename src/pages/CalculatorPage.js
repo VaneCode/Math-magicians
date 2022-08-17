@@ -1,9 +1,10 @@
 import React from 'react';
 import CalcUI from '../components/Calculator';
+import '../styles/pages.css';
 
 const CalculatorPage = () => (
-  <section>
-    <h2>Let&apos;s do some math!</h2>
+  <section className="sectionCalc">
+    <h2 className="titlePage">Let&apos;s do some math!</h2>
     <CalcUI />
   </section>
 );

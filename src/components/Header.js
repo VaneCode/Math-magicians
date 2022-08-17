@@ -1,8 +1,9 @@
 import React from 'react';
 import Navbar from './Navbar';
+import '../styles/header.css';
 
 const Header = () => (
-  <header>
+  <header className="headerPage">
     <span>
       <a className="logo" href="/">
         Math Magician

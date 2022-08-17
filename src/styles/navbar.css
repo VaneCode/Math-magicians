@@ -1,0 +1,15 @@
+.navbar ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+.navbar ul li {
+  font-size: 1.2rem;
+}
+
+.middle {
+  border-left: 0.2rem solid var(--white-color);
+  border-right: 0.2rem solid var(--white-color);
+  padding: 0 0.5rem;
+}
