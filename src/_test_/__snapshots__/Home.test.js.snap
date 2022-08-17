@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing component Home Render Home 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <section
+        class="sectionPage"
+      >
+        <h1
+          class="titlePage"
+        >
+          Welcome to our page!
+        </h1>
+        <p>
+          Tincidunt tortor aliquam nulla facilisi cras fermentum odio.Nunc mattis enim ut tellus elementum. Lacinia at quis risus sed vulputate. Eget velit aliquet sagittis id. Eu scelerisque felis imperdiet proin fermentum leo vel orci. Non consectetur a erat nam. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant. Tincidunt vitae semper quis lectus nulla at volutpat diam. Nascetur ridiculus mus mauris vitae ultricies leo. Massa sed elementum tempus egestas sed sed risus pretium. Et ultrices neque ornare aenean euismod. Scelerisque purus semper eget duis. Eget nulla facilisi etiam dignissim diam quis enim lobortis. Tempor orci eu lobortis elementum nibh tellus molestie nunc non. Nisl condimentum id venenatis a condimentum vitae sapien. Feugiat pretium nibh ipsum consequat nisl vel. Lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi.
+        </p>
+        <p>
+          Dignissim convallis aenean et tortor at risus viverra. Tellus mauris a diam maecenas sed enim ut. Elit pellentesque habitant morbi tristique senectus et netus. Ac auctor augue mauris augue neque gravida. Diam volutpat commodo sed egestas. Purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae.Rhoncus urna neque viverra justo nec ultrices dui. Nam aliquam sem et tortor consequat id porta. Sit amet justo donec enim diam. Montes nascetur ridiculus mus mauris vitae ultricies. Nunc id cursus metus aliquam eleifend mi in nulla posuere. Integer quis auctor elit sed vulputate mi sit amet mauris. Facilisi morbi tempus iaculis urna id volutpat lacus laoreet. Egestas pretium aenean pharetra magna ac placerat vestibulum. Ac turpis egestas integer eget aliquet nibh praesent tristique magna. Tellus in hac habitasse platea.
+        </p>
+      </section>
+    </div>
+  </body>,
+  "container": <div>
+    <section
+      class="sectionPage"
+    >
+      <h1
+        class="titlePage"
+      >
+        Welcome to our page!
+      </h1>
+      <p>
+        Tincidunt tortor aliquam nulla facilisi cras fermentum odio.Nunc mattis enim ut tellus elementum. Lacinia at quis risus sed vulputate. Eget velit aliquet sagittis id. Eu scelerisque felis imperdiet proin fermentum leo vel orci. Non consectetur a erat nam. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant. Tincidunt vitae semper quis lectus nulla at volutpat diam. Nascetur ridiculus mus mauris vitae ultricies leo. Massa sed elementum tempus egestas sed sed risus pretium. Et ultrices neque ornare aenean euismod. Scelerisque purus semper eget duis. Eget nulla facilisi etiam dignissim diam quis enim lobortis. Tempor orci eu lobortis elementum nibh tellus molestie nunc non. Nisl condimentum id venenatis a condimentum vitae sapien. Feugiat pretium nibh ipsum consequat nisl vel. Lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi.
+      </p>
+      <p>
+        Dignissim convallis aenean et tortor at risus viverra. Tellus mauris a diam maecenas sed enim ut. Elit pellentesque habitant morbi tristique senectus et netus. Ac auctor augue mauris augue neque gravida. Diam volutpat commodo sed egestas. Purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae.Rhoncus urna neque viverra justo nec ultrices dui. Nam aliquam sem et tortor consequat id porta. Sit amet justo donec enim diam. Montes nascetur ridiculus mus mauris vitae ultricies. Nunc id cursus metus aliquam eleifend mi in nulla posuere. Integer quis auctor elit sed vulputate mi sit amet mauris. Facilisi morbi tempus iaculis urna id volutpat lacus laoreet. Egestas pretium aenean pharetra magna ac placerat vestibulum. Ac turpis egestas integer eget aliquet nibh praesent tristique magna. Tellus in hac habitasse platea.
+      </p>
+    </section>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
