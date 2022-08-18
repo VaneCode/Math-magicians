@@ -1,8 +1,9 @@
 /* eslint-disable react/prefer-stateless-function */
 /* eslint-disable react/destructuring-assignment */
 import React, { useState } from 'react';
+import { v4 as uuidv4 } from 'uuid';
 import Button from './Button';
-import calculate from '../logic/calculate';
+import { calculate } from '../logic/calculate';
 import '../styles/calculator.css';
 
 const buttons = [
@@ -49,7 +50,7 @@ const CalcUI = () => {
       </div>
       <div className="divButtons">
         {buttons.map((btn) => (
-          <Button clickHandler={handleClick} key={btn.id} value={btn} />
+          <Button clickHandler={handleClick} key={uuidv4()} value={btn} />
         ))}
       </div>
     </div>
