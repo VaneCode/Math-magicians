@@ -1,18 +1,20 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+
 # Math-magicians
 
-> This is a project created with Reacts with SPA approach, that allows the users make math operations. 
+> This is a project that allows the users make the basic math operations. It was creating using the SPA approach and React.
 
 ## Built With
 
 - HTML5
-- CSS
+- CSS3
 - React
 
-## Live Demo (if avialable)
+## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://sage-dodol-eeb67c.netlify.app/)
 
 ## Getting Started
 
